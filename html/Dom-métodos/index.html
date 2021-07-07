@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Texto descrito da pagina web" />
+    <meta name="autor" content="Gama Academy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="text/css" href="estilos.css">
+
+    <title>Pagina para Exercício HTML - Dom - Método</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+
+    </header>
+    <!-- Fim do Cabeçalho-->
+
+    <!-- Conteúdo principal-->
+    <main role="main">
+        <!-- O que são métodos?
+            Um método é uma função associada a um objeto, ou, simplesmente, um método é uma propriedade de um objeto que é uma função. Métodos são defenidos da forma que as funções normais são definidas, exceto que eles tenham que ser atribuídos como propriedade de um objeto.
+        
+        Fonte: MDN Web Docs
+        -->
+
+        <p>
+            Baby Yoda é um menbro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e
+            Yaddle, com quem compartilha uma forte habilidade na Força.
+        </p>
+
+        <p id="article-description">
+            Baby Yoda é um menbro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e
+            Yaddle, com quem compartilha uma forte habilidade na Força.
+        </p>
+
+        <script type="text/javascript">
+
+            var paragrafo = document.getElementById("article-description");
+            paragrafo.style.color = "blue";
+
+            paragrafo.innerText = "Texto mudou";
+
+        </script>
+
+    </main>
+    <!-- Fim do Conteúdo Principal-->
+
+    <!-- Rodapé -->
+    <footer>
+
+    </footer>
+    <!-- Fim do Rodapá -->
+</body>
+
+</html>
